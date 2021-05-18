@@ -42,6 +42,9 @@
 video
 {
     position: fixed;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -51,8 +54,9 @@ video
 .sound-picker button
 {
     color: black;
-    width: 30%;
-    height: 10%;
+    width: auto;
+    height: auto;
+    padding: 2rem;
     background: none;
     border: 2px solid whitesmoke;
     cursor: pointer;
